@@ -4,11 +4,11 @@ import PackageDescription
 let package = Package(
     name: "server",
     platforms: [
-       .macOS(.v13)
+       .macOS(.v11)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.77.1"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         .package(url: "https://github.com/sofbix/iSamaraCounters.git", branch: "main"),
         .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0")
